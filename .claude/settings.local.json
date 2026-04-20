@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('c:/ML/YD_3_11_2026_Final_Project.ipynb'\\)\\); cells=nb['cells']; print\\(f'Total cells: {len\\(cells\\)}'\\); [print\\(f'  {i:>2}. [{c[\\\\\"cell_type\\\\\"][:4]}] {c[\\\\\"id\\\\\"]}  {str\\(c[\\\\\"source\\\\\"]\\)[:70]}'\\) for i,c in enumerate\\(cells\\)]\")"
+    ]
+  }
+}
